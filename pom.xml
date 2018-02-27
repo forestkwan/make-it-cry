@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+	
+	<distributionManagement>
+	    <repository>
+		<id>central</id>
+		<name>c86c34775140-releases</name>
+		<url>http://internal-coach-devops.eastasia.cloudapp.azure.com:8083/artifactory/great-company</url>
+	    </repository>
+	</distributionManagement>
 
     <groupId>coach2</groupId>
     <artifactId>make-it-cry</artifactId>
